@@ -1,0 +1,35 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #fff;
+  background-color: #222;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.summary {
+  font-size: 3rem;
+}
+
+.value {
+  font-size: 3rem;
+}
+
+.switch {
+  font-size: 1rem;
+  cursor: pointer;
+  color: yellow !important;
+}
+
+.btn {
+  margin-bottom: 23px;
+}
+
+.btn:focus {
+  outline: none !important;
+}
